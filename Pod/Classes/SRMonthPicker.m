@@ -354,8 +354,8 @@ static const NSCalendarUnit SRDateComponentFlags = NSCalendarUnitMonth | NSCalen
     self.dataSource = self;
     self.delegate = self;
     
-    self.enableColourRow = YES;
-    self.wrapMonths = YES;
+    self.enableColourRow = NO;
+    self.wrapMonths = NO;
     
     self.font = [UIFont boldSystemFontOfSize:24.0f];
     self.fontColor = [UIColor blackColor];
